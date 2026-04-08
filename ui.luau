@@ -78,11 +78,12 @@ local Remove = clonefunction(table.remove)
 local Concat = clonefunction(table.concat)
 
 local Library = {
-	Directory = "Atlanta",
+	Directory = "MamboWare",
 	Folders = {
 		"/fonts",
 		"/configs",
-		"/images"
+		"/images",
+		"/lua"
 	},
 	Flags = {},
 	ConfigFlags = {},
